@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <title>Currency Convertor</title>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <h1>Currency Convertor</h1>
+                <form action>
+                    <div class="amount">
+                        <p>Enter Amount :</p>
+                        <input type="text" value="1" name id="amt">
+                    </div>
+                    <div class="dropdown">
+                        <div class="selectctry">
+                            <p>From</p>
+                          <div class="ctry from">
+                            <img src="https://flagsapi.com/US/shiny/64.png" alt>
+                            <select name id="from">
+                            
+                            </select>
+                          </div>
+                        </div>
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        <div class="selectctry">
+                            <p>To</p>
+                           <div class="ctry to">
+                            <img src="https://flagsapi.com/IN/shiny/64.png" alt>
+                            <select name id="to">
+                               
+                            </select>
+                           </div>
+                        </div>
+                    </div>
+                    <p class="msg">1 USD = 80 INR</p>
+                    <button id="btn">Get Exchange Rate</button>
+                </form>
+            </div>
+        </section>
+
+
+        <script src="code.js"></script>
+        <script src="app.js">
+
+        </script>
+    </body>
+</html>
